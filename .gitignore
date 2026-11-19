@@ -1,0 +1,18 @@
+# Local dataset snapshots and derived tables
+*.parquet
+*.csv
+openfoodfacts_raw_sample_meta.json
+data/
+outputs/
+*.joblib
+*.pkl
+
+# Environment, credentials and notebook state
+.venv/
+.env
+.env.*
+*.pem
+*.key
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
